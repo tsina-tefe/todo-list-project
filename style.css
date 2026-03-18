@@ -85,6 +85,11 @@ h1{
     background-color: #494d53;
     border-radius: 25px;
     margin-bottom: 10px;
+    transition: ease 1.5s;
+}
+.task-container:hover{
+    border: 1px solid #00ADB5;
+    transform: scale(1.01);
 }
 .btn-complete{
     cursor: pointer;
@@ -120,4 +125,10 @@ h1{
 }
 .error-message{
     color: rgba(255, 0, 0, 0.847);
+}
+.mark-completed{
+    text-decoration: line-through #00ADB5;
+}
+.completed-blur{
+    opacity: 0.5;
 }
